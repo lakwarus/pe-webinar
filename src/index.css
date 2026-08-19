@@ -78,30 +78,10 @@ h1 {
   transform: translateY(-1px);
 }
 
-.meta {
-  display: flex;
-  gap: 2rem;
+.footer {
   margin: 2rem 0 0;
   padding-top: 1.5rem;
   border-top: 1px solid #2a2f3a;
-}
-
-.meta dt {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #6b7280;
-  margin-bottom: 0.25rem;
-}
-
-.meta dd {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.footer {
-  margin: 2rem 0 0;
   font-size: 0.85rem;
   color: #6b7280;
 }

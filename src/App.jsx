@@ -1,8 +1,5 @@
 import { useState } from 'react'
 
-const ENVIRONMENT = import.meta.env.VITE_ENVIRONMENT ?? 'local'
-const APP_VERSION = import.meta.env.VITE_APP_VERSION ?? 'dev'
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,17 +17,6 @@ function App() {
         <div className="counter">
           <button onClick={() => setCount((c) => c + 1)}>Clicked {count} times</button>
         </div>
-
-        <dl className="meta">
-          <div>
-            <dt>Environment</dt>
-            <dd>{ENVIRONMENT}</dd>
-          </div>
-          <div>
-            <dt>Version</dt>
-            <dd>{APP_VERSION}</dd>
-          </div>
-        </dl>
 
         <p className="footer">
           Built for{' '}
